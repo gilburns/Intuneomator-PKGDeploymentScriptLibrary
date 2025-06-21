@@ -4,10 +4,10 @@
 # Check_For_Managed_Prefs.sh
 #====================================================================
 # 
-# Purpose: Checks for the existence of a macOS managed preference plist file
-#          before proceeding with package installation. This is commonly used as
-#          a preinstall script to ensure required managed preferences are deployed
-#          via MDM before an application is installed.
+# Purpose: Checks for the existence of a macOS managed preference plist
+#          file before proceeding with package installation. This is to
+#          ensure required managed preferences are deployed via MDM
+#          before an application is installed.
 #
 # Usage:   Set BUNDLE_ID to the target application's bundle identifier
 #          The script will check for the corresponding .plist file in
