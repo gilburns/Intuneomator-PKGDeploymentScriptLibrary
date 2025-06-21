@@ -4,12 +4,13 @@
 # Check_For_Managed_Config.sh
 #====================================================================
 # 
-# Purpose: Waits for a macOS configuration profile to be installed before 
-#          proceeding with package installation. This is commonly used as a 
-#          preinstall script to ensure required profiles are deployed via MDM
-#          before an application is installed.
+# Purpose: Waits for a macOS configuration profile to be installed
+#          before proceeding with package installation. This is to
+#          ensure required profiles are deployed via MDM before an
+#          application is installed.
 #
-# Usage:   Set BUNDLE_ID to the target configuration profile's bundle identifier
+# Usage:   Set BUNDLE_ID to the target configuration profile's
+#          bundle identifier
 #          The script will wait up to 10 minutes for the profile to appear
 #
 # Exit Codes:
