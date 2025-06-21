@@ -1,8 +1,8 @@
 #!/bin/zsh
 
-#==============================================================================
+#====================================================================
 # Check_For_Managed_Prefs.sh
-#==============================================================================
+#====================================================================
 # 
 # Purpose: Checks for the existence of a macOS managed preference plist file
 #          before proceeding with package installation. This is commonly used as
@@ -17,7 +17,7 @@
 #   0 - Managed preference plist found
 #   1 - Managed preference plist not found (Intune will retry installation)
 #
-#==============================================================================
+#====================================================================
 
 # Set the bundle ID you want to check
 BUNDLE_ID="{{BUNDLE_ID}}"
