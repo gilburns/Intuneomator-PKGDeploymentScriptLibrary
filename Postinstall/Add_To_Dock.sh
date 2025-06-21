@@ -4,9 +4,10 @@
 # Add_To_Dock.sh
 #====================================================================
 # 
-# Purpose: Adds an application to the macOS Dock for all user accounts on the
-#          system. This is commonly used as a postinstall script to ensure
-#          newly installed applications appear in users' Docks automatically.
+# Purpose: Adds an application to the macOS Dock for all user accounts
+#          on the system. This is commonly used as a postinstall script
+#          to ensure newly installed applications appear in users'
+#          Docks automatically.
 #
 # Requirements: dockutil must be installed at /usr/local/bin/dockutil
 #               (https://github.com/kcrawford/dockutil)
