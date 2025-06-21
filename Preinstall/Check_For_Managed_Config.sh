@@ -1,8 +1,8 @@
 #!/bin/zsh
 
-#==============================================================================
+#====================================================================
 # Check_For_Managed_Config.sh
-#==============================================================================
+#====================================================================
 # 
 # Purpose: Waits for a macOS configuration profile to be installed before 
 #          proceeding with package installation. This is commonly used as a 
@@ -16,7 +16,7 @@
 #   0 - Configuration profile found and installed
 #   1 - Timeout reached, profile not found within time limit
 #
-#==============================================================================
+#====================================================================
 
 # Set the bundle ID you want to check
 BUNDLE_ID="{{BUNDLE_ID}}"
