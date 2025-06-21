@@ -1,8 +1,8 @@
 #!/bin/zsh
 
-#==============================================================================
+#====================================================================
 # Add_To_Dock.sh
-#==============================================================================
+#====================================================================
 # 
 # Purpose: Adds an application to the macOS Dock for all user accounts on the
 #          system. This is commonly used as a postinstall script to ensure
@@ -18,7 +18,7 @@
 #   0 - Successfully added application to Dock(s)
 #   1 - Application not found or dockutil not available
 #
-#==============================================================================
+#====================================================================
 
 # Path to the app you want to add to the Dock
 APP_PATH="/Applications/{{APP_NAME}}.app"
